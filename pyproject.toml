@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telemetry-gap-experiment"
+version = "0.1.0"
+description = "Experiment harness for evaluating parental telemetry gaps"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+telemetry-gap = "telemetry_gap.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
