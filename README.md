@@ -41,7 +41,7 @@ Provider adapters are configurable so approved model endpoints can be changed wi
 telemetry-gap init --config config.json
 ```
 
-The database stores a config snapshot, created Phase-I trajectories and mutation-level attempts, frozen selection state, replay observations, and a separate benign corpus.
+The database holds a configuration snapshot, the trajectories generated in Phase I along with their mutation-level attempts, a frozen record of the selection state, observations from replay, and a distinct benign corpus.
 
 ### 2. Run Phase I
 
